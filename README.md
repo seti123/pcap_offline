@@ -1,5 +1,7 @@
 Offline PCAP based on [mranny/node_pcap](https://github.com/mranney/node_pcap), [kunklejr/node-pcap-parser](https://github.com/kunklejr/node-pcap-parser), [wanderview/node-pcap-stream](https://github.com/wanderview/node-pcap-stream)
 
+    npm install seti123/pcap_offline
+    
 Major Changes: instead of openOffline use readPcap('file.pcap', function (packet) {});
 
 - It's based on pcap-stream and pcap-parser to replace native libpcap bining. 
