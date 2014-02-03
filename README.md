@@ -4,7 +4,7 @@ Offline PCAP based on [mranny/node_pcap](https://github.com/mranney/node_pcap), 
     
 Major Changes: instead of openOffline use readPcap('file.pcap', function (packet) {});
 
-- It's based on pcap-stream and pcap-parser to replace native libpcap bining. 
+- It's based on pcap-stream and pcap-parser to replace native libpcap binding. 
 - Improvement: it detects IP packets more or less independet from link-layer. 
 - Limitation: lost packet filter capabilities of native libpcap, pcap-ng not supported by pcap-stream (as far I know) 
 
