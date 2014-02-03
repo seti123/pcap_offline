@@ -1,0 +1,22 @@
+{
+  "name": "pcap_offline",
+  "private": true,
+  "version": "0.0.1",
+  "description": "offline mode for node_pcap without native dependencies",
+  "dependencies": {
+    "pcap-parser": "*",
+    "pcap-stream": "*"
+  },
+  "scripts": {
+    "start": "node example.js",
+    "debug": "node debug example.js"
+  },
+  "main": "pcap_offline.js",
+  "repository": 
+  {
+	"type": "git", 
+	"url": "git@github.com:seti123/pcap_offline.git"
+  },
+  "author": "Stefan Thies, based on mranny/node_pcap",
+  "license": "MIT Licence"
+}
